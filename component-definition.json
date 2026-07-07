@@ -60,6 +60,41 @@
       "id": "blocks",
       "components": [
         {
+          "title": "Team",
+          "id": "team",
+          "model": "team",
+          "filter": "team",
+          "plugins": {
+            "da": {
+              "name": "team",
+              "rows": 1,
+              "columns": 2
+            }
+          }
+        },
+        {
+          "title": "Team Member",
+          "id": "team-member",
+          "model": "team-member",
+          "plugins": {
+            "da": {
+              "name": "team-member",
+              "rows": 1,
+              "columns": 2,
+              "fields": [
+                {
+                  "name": "name",
+                  "selector": "div:nth-child(1)"
+                },
+                {
+                  "name": "jobTitle",
+                  "selector": "div:nth-child(2)"
+                }
+              ]
+            }
+          }
+        },
+        {
           "title": "Accordion",
           "id": "accordion",
           "model": "accordion",

@@ -1,5 +1,28 @@
 [
   {
+    "id": "team",
+    "fields": []
+  },
+  {
+    "id": "team-member",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "name",
+        "label": "Name",
+        "required": true
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "jobTitle",
+        "label": "Job Title",
+        "required": true
+      }
+    ]
+  },
+  {
     "id": "page-metadata",
     "fields": [
       {

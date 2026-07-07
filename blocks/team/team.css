@@ -1,0 +1,21 @@
+.team {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 24px;
+}
+
+.team .team-member {
+  padding: 16px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+}
+
+.team .team-member-name {
+  font-weight: 700;
+  font-size: var(--heading-font-size-s, 20px);
+}
+
+.team .team-member-title {
+  color: #6e6e6e;
+  font-size: var(--body-font-size-s, 16px);
+}

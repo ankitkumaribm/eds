@@ -23,7 +23,14 @@
       "table",
       "text",
       "video",
+      "team",
       "product-recommendations"
+    ]
+  },
+  {
+    "id": "team",
+    "components": [
+      "team-member"
     ]
   },
   {
