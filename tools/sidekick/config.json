@@ -1,5 +1,5 @@
 {
   "project": "DA Block Collection",
   "editUrlLabel": "Document Authoring",
-  "editUrlPattern": "https://da.live/edit#/ankitkumaribm/eds/{{pathname}}"
+  "editUrlPattern": "https://da.live/edit#/ankitkumaribm/eds/{pathname}"
 }
